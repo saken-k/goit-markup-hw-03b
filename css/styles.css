@@ -47,8 +47,9 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* #region header */
@@ -61,7 +62,7 @@ img {
 .header-div {
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    /* padding: 0; */
 }
 
 .navigation {
@@ -75,7 +76,6 @@ img {
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .logo-header {
@@ -107,6 +107,7 @@ a.logo-header:focus {
     font-weight: 500;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .main-menu a:hover, 
@@ -202,8 +203,8 @@ a.logo-header:focus {
 }
 
 .advantages-header {
-    visibility: hidden;
-    /* display: none; */
+    /* visibility: hidden; */
+    display: none;
 }
 
 .advantages-list-element {
